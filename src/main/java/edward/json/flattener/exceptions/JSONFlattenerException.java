@@ -1,4 +1,4 @@
-package edward.json.flattener;
+package edward.json.flattener.exceptions;
 
 /**
  * This exception provides 1 exception to wrap other exceptions that may be thrown on the flattening of JSON.

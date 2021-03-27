@@ -1,5 +1,6 @@
 package edward.json.flattener;
 
+import edward.json.flattener.exceptions.JSONFlattenerException;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 

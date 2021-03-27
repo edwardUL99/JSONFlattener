@@ -1,5 +1,6 @@
 package edward.json.flattener;
 
+import edward.json.flattener.exceptions.JSONFlattenerException;
 import org.json.JSONException;
 import org.json.simple.JSONObject;
 import org.junit.Test;
@@ -7,9 +8,6 @@ import org.skyscreamer.jsonassert.JSONAssert;
 import org.skyscreamer.jsonassert.JSONCompareMode;
 
 import java.io.ByteArrayInputStream;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
 
 public class JSONReaderTest {
     /**

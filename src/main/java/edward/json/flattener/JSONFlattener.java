@@ -1,8 +1,7 @@
 package edward.json.flattener;
 
+import edward.json.flattener.exceptions.JSONFlattenerException;
 import org.json.simple.JSONObject;
-
-import java.io.File;
 
 
 /**
